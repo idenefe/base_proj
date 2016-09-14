@@ -1,5 +1,7 @@
 == README
-
+This is a default rails application gnereated by the following command in Cloud 9 IDE with the following command:
+  <strong>rails new base_proj</strong>
+  
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
