@@ -36,6 +36,21 @@ Automatically this will produce the following text:
 No idea what this means exactly but tabbing items over in the text file seems to put them into a container of some sort:
   like this tabbed text
   
-Anywhooooooo, this is a basic rails application has bootstrap included by adding the following lines to the default GEMFILE:
+Anywhooooooo, this is a basic rails application that has bootstrap included by adding the following lines to the default GEMFILE:
   gem 'bootstrap-sass', '~> 3.3.6' // version may change
   gem 'sass-rails', '>= 3.2' //not required in cloud 9 IDE
+...as well as moving the
+  gem 'sqlite3'
+line into the 
+  group :development, :test do
+section
+
+also added this to the end of the GEMFILE
+  group :production do
+    gem 'pg'
+    gem 'rails_12factor'
+  end
+
+... not exactly sure why but i believe it has something to do with heroku deployment
+Regardless... (or irregardless if you're a moron) type the following into the command ine of cloud 9 IDE to I guess complile? or whatever??
+  bundle install --without production
