@@ -1,30 +1,32 @@
 == README
 This is a default rails application gnereated by the following command in Cloud 9 IDE with the following command:
-  <strong>rails new base_proj</strong>
+  rails new base_proj
+
+Automatically this will produce the following text:
+
+  This README would normally document whatever steps are necessary to get the
+  application up and running.
   
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+  Things you may want to cover:
+  
+  * Ruby version
+  
+  * System dependencies
+  
+  * Configuration
+  
+  * Database creation
+  
+  * Database initialization
+  
+  * How to run the test suite
+  
+  * Services (job queues, cache servers, search engines, etc.)
+  
+  * Deployment instructions
+  
+  * ...
+  
+  
+  Please feel free to use a different markup language if you do not plan to run
+  <tt>rake doc:app</tt>.
