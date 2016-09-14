@@ -51,6 +51,6 @@ also added this to the end of the GEMFILE
     gem 'rails_12factor'
   end
 
-... not exactly sure why but i believe it has something to do with heroku deployment
-Regardless... (or irregardless if you're a moron) type the following into the command ine of cloud 9 IDE to I guess complile? or whatever??
+... not exactly sure why but i believe it has something to do with heroku deployment \n
+Regardless... (or irregardless if you're a moron) type the following into the command line of cloud 9 IDE to I guess complile? or whatever??
   bundle install --without production
