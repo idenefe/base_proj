@@ -1,8 +1,9 @@
 == README
 // used to denote comments... figure it out genius...
-// also, since github apparently uses a unik format check https://help.github.com/articles/basic-writing-and-formatting-syntax/
+// also, since github apparently uses a unique format check https://help.github.com/articles/basic-writing-and-formatting-syntax/
 
 //for how to update this readme later so as to look "prettier"
+
 This is a default rails application gnereated by the following command in Cloud 9 IDE:
   rails new base_proj
 
