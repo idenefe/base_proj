@@ -36,6 +36,6 @@ Automatically this will produce the following text:
 No idea what this means exactly but tabbing items over in the text file seems to put them into a container of some sort:
   like this tabbed text
   
-Anywhooooooo, this is a basic rails application with the following lines included in the GEMFILE:
+Anywhooooooo, this is a basic rails application has bootstrap included by adding the following lines to the default GEMFILE:
   gem 'bootstrap-sass', '~> 3.3.6' // version may change
   gem 'sass-rails', '>= 3.2' //not required in cloud 9 IDE
